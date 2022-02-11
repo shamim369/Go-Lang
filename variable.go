@@ -30,10 +30,10 @@ func main() {
 	// Variable Declaration With Initial Value
 	var name string 	= "Md. Shamim Hossain" 	// type is string
 	var age int 		= 35					// type is integer
-	var salary float32 	= 19.35 				// type is floating number
+	var salary float32 	= 19.35 				// type is floating point number
 	var active bool 	= true 					// type is boolean
-	var student2 		= "Jane" 				//type is inferred
-  	x := 2 										//type is inferred
+	var student2 		= "Jane" 				// type is inferred
+  	x := 2 										// type is inferred
 	fmt.Println(name, age, salary, active, student2, x)
 
 	// Variable Declaration Without Initial Value
