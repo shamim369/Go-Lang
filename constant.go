@@ -14,8 +14,8 @@ import "fmt"
 
 func main() {
 
-	const PI = 3.1416 // Typed constants
-	const SECRET_KEY = "5976@54632" // Typed constants
+	const PI = 3.1416 					// Typed constants
+	const SECRET_KEY = "5976@54632" 	// Typed constants
 
 	// Multiple Constants Declaration
 	const (
@@ -23,6 +23,5 @@ func main() {
 		B = 3.14
 		C = "Hi!"
 	)
-
-	fmt.Println(A)
+	fmt.Println(A, B, C, PI, SECRET_KEY)
 }
