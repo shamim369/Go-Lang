@@ -26,6 +26,7 @@ import "fmt"
 */
 
 func main() {
+
 	// Variable Declaration With Initial Value
 	var name string 	= "Md. Shamim Hossain" 	// type is string
 	var age int 		= 35					// type is integer
@@ -42,4 +43,9 @@ func main() {
 	var d bool
 	fmt.Println(a, b, c, d)
 
+	// Go Multiple Variable Declaration
+	var m, n, o, p int = 1, 3, 5, 7
+	var q, r = 6, "Hello"
+	y, z := 7, "World!"
+	fmt.Println(m, n, o, p, q, r, y, z)
 }
